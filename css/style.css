@@ -356,14 +356,16 @@
     height:500px;
     border: 3px solid black;
 }
-/* test */
 form {
     font-family: Arial;
-    text-align: center;
 }
 .container0 {
     padding: 20px;
     background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 input[type=text], input[type=submit] {
     max-width: 700px;
@@ -393,4 +395,262 @@ input[type=submit]:hover {
     align-items: center;
     text-align: center;
     padding-top: 20PX;
+}
+/* section #4 */
+.section4 {
+    height: 600px;
+}
+.share {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 115px;
+    margin-bottom: 12px;
+    font-size: 38px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.instagram {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+}
+.follow {
+    color: grey;
+}
+.instagram:hover {
+    opacity: 0.7;
+}
+.column {
+    float: left;
+    width: 14.22%;
+    padding: 5px;
+}
+.row {
+    margin-top: 50px;
+} 
+.row::after {
+    content: "";
+    clear: both;
+    display: flex;
+}
+.column:hover {
+    background-color: grey;
+}
+/* section #5 */
+.section5 {
+    background-color: mintcream;
+}
+.box8 {
+    max-width: 1200px;
+    width: 100%;
+    height: 2px;
+    background-color:dimgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    margin-bottom: 87px;
+}
+.box9 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: mintcream;
+    margin-bottom: 90px;
+}
+.fb {
+    padding-right: 43px;
+}
+.img-boxwrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+.boxwrap{
+    max-width:680px;
+    width: 100%;
+    height:450px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.boxwrap:nth-child(3),
+.boxwrap:nth-child(4){
+    margin-top: 40px;
+}
+.bg1 {
+    background-image: url(../image/fashion1.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.bg1 .read {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-10%, -10%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #fff;
+    color:black;
+    font-size: 22px;
+    padding: 8px 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.bg1 .read:hover {
+    background-color:rosybrown;
+}
+.bg2 {
+    background-image: url(../image/fashion2.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.bg2 .read {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-10%, -10%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #fff;
+    color:black;
+    font-size: 22px;
+    padding: 8px 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.bg2 .read:hover {
+    background-color:rosybrown;
+}
+.bg3 {
+    background-image: url(../image/fashion3.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.bg3 .read {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-10%, -10%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #fff;
+    color:black;
+    font-size: 22px;
+    padding: 8px 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.bg3 .read:hover {
+    background-color:rosybrown;
+}
+.bg4 {
+    background-image: url(../image/fashion4.jpg);
+}
+.bg5 {
+    background-image: url(../image/fashion5.jpg);
+}
+.box-wrap{
+    max-width:330px;
+    width: 100%;
+    height:500px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+
+}
+.img-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.bg-4 {
+    margin-right: 20px;
+}
+.read {
+    max-width:180px;
+    width: 100%;
+    height: 55px;
+    background-color:#fff;
+}
+.more {
+    font-size: 20px;
+    color:black;
+    padding-top:8px;
+    padding-left: 16px;
+}
+.fashion,
+.find {
+    color:lightcoral;
+    font-size: 26px;
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+.box11 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+.box12 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.store {
+    font-size: 36px;
+    padding-bottom: 40px;
+}
+.free {
+    font-size: 28px;
+    padding-bottom: 25px;
+}
+.card {
+    font-size: 26px;
+    color: #6f7480;
+    padding-bottom: 70px;
+}
+.box-12 {
+    margin-left: 40px;
+}
+.boox {
+    margin-right: 40px;
 }
